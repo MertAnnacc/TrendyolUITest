@@ -28,4 +28,7 @@ public class PLPPage {
 
         @FindBy(xpath = "//div[text()='Sepetim (1 Ürün)']")
         public  WebElement verifyCartText;
+
+        @FindBy(xpath = "//div[@class='overlay']")
+        public WebElement randomClick;
 }

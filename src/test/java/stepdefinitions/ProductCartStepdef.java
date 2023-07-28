@@ -21,6 +21,7 @@ public class ProductCartStepdef {
     @Then("Click the product")
     public void click_the_product() {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
+        plpPage.randomClick.click();
         plpPage.productLink.click();
 
     }
