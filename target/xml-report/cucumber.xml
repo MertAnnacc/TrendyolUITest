@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="44.205" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="User must be able to access the correct site." name="User goes to trendyol.com" time="5.862">
+<system-out><![CDATA[
+Given User goes to trendyol.com.............................................passed
+Then Accept the cookies.....................................................passed
+Then Verify to be on the right site.........................................passed
+And Close the page..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Results relevant with the searched product should be displayed." name="The product searched by typing in the search box must be related to the searched product." time="8.652">
+<system-out><![CDATA[
+* User goes to trendyol.com.................................................passed
+Given Accept the cookies....................................................passed
+Then Click the search box field.............................................passed
+And Type the searching word.................................................passed
+Then Click search icon on the right side of searching fieldbox..............passed
+Then Verify that the page related to the searched product has been reached..passed
+And Close the page..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="The user should be able to add any product to their cart without any problems." name="The searched product should be added to the cart and it should be seen that it is in the cart." time="29.488">
+<system-out><![CDATA[
+* User goes to trendyol.com.................................................passed
+Given Accept the cookies....................................................passed
+Then Click the search box field.............................................passed
+And Type the searching word.................................................passed
+Then Click search icon on the right side of searching fieldbox..............passed
+Then Click the product......................................................passed
+And Choose foot size number.................................................passed
+Then Click add to cart......................................................passed
+Then Click my cart button...................................................passed
+Then Verify product add to cart.............................................passed
+And Close the page..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
