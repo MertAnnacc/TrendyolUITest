@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
        //         "json:target/cucumber.json","html:target/cucumber-html-report","usage:target/cucumber.json","" +
        //         "junit:target/cucumber-results.xml" },
 
-        plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
+        plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+                "json:target/cucumber.json","html:target/cucumber-html-report","usage:target/cucumber.json",},
         features = "src/test/resources/features" ,
         glue = "stepdefinitions" ,
         tags= "@run",
