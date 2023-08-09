@@ -13,6 +13,8 @@ public class LoginStepdef {
 
     HomePage homePage = new HomePage();
 
+
+
     @Given("User goes to trendyol.com")
     public void user_goes_to_trendyol_com() {
 
